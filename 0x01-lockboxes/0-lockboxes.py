@@ -3,16 +3,18 @@
 Lock boxes
 """
 
+
 def canUnlockAll(boxes):
-    unlocked_boxes = [0]
-    for bid, box in enumerate(boxes):
+    """Function determines if all boxes can be opened"""
+    unlocked = [0]
+    for b_id, box in enumerate(boxes):
         if not box:
             continue
         for key in box:
-            if key < len(boxes) and key not in unlocked_boxes \
-               and key != bid:
-                unlocked_boxes.append(key)
+            if key < len(boxes) and key not in unlocked \
+               and key != b_id:
+                unlocked.append(key)
 
-    if len(unlocked_boxes) == len(boxes):
+    if len(unlocked) == len(boxes):
         return True
     return False
