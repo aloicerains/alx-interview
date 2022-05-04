@@ -5,3 +5,4 @@ The following directories contains the problems dressed:
 * 0x00-pascal_triangle
 * 0-minoperations.py
 * 0x03-log_parsing
+* 0x04-utf8_validation
