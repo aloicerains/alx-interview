@@ -6,3 +6,4 @@ The following directories contains the problems dressed:
 * 0-minoperations.py
 * 0x03-log_parsing
 * 0x04-utf8_validation
+* 0x05-nqueens
