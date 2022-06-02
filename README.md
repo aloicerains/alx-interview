@@ -9,3 +9,4 @@ The following directories contains the problems dressed:
 * 0x05-nqueens
 * 0x06-starwars_api
 * 0x07-rotate_2d_matrix
+* 0x08-making_change  
